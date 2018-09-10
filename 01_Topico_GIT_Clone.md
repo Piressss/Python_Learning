@@ -46,7 +46,7 @@ Para verificar se a pasta foi criada, execute:
 ls
 </pre>
 
-Deve aparecer as pastas que você no tem no seu HOME e mais a pasta criada 'GitHub'. Você acabou de aprender 2 novos comandos, 'mkdir' para criar
+Deve aparecer as pastas que você tem no seu HOME e mais a pasta criada 'GitHub'. Você acabou de aprender 2 novos comandos, 'mkdir' para criar
 diretórios e 'ls' para listar tudo que tem dentro do diretório que estiver.
 
 Agora vamos entrar na pasta com o comando 'cd' que serve para obviamente entrar na pasta através do terminal.
@@ -69,13 +69,11 @@ Se tudo deu certo, você deve estar no diretório para fazer o clone do seu repo
 git clone https://github.com/Piressss/Python_Learning.git
 </pre>
 
-Algumas coisas vão aparecer na sua tela e ao terminal você deve executar o comando 'ls' novamente, deve aparecer o nome do diretório
-'Python_Learning'. Entre no diretório utilizando o comando 'cd', como vimos anteriormente, agora você está dentro do repositório local.
+Algumas coisas vão aparecer na sua tela e ao terminar ocê deve executar o comando 'ls' novamente, deve aparecer o nome do diretório 'Python_Learning'. Entre no diretório utilizando o comando 'cd', como vimos anteriormente, agora você está dentro do repositório local.
 
 ## Segundo Passo - Criar um novo arquivo
 
-Agora crie um arquivo através de qualquer editor, salve com o nome "Teste.txt" e escreva no arquivo a frase "Teste no GIT". Lembre-se você deve criar
-o arquivo dentro do diretório que fizemos o clone, se for criar pelo terminal precisará entrar no diretório:
+Agora crie um arquivo através de qualquer editor, salve com o nome "Teste.txt" e escreva no arquivo a frase "Teste no GIT". Lembre-se você deve criar o arquivo dentro do diretório que fizemos o clone.
 
 Você pode criar com o gedit:
 
@@ -111,9 +109,7 @@ Pronto se tudo deu certo você já consegue visualizar o arquivo pelo browser no
 
 ## Quarto Passo - Atualizar o repositório local
 
-Agora você aprendeu a executar os principais comandos do Git, recomendo pesquisar no google melhor sobre estes comandos. Mas ainda falta um comando
-importante, o 'Pull'. O 'Pull' serve para atualizar o seu repositório local, imagine que outro usuário alterou o repositório do Git e você precisa
-antes de retomar o seu trabalho atualizar o seu repositório com estas modificações, então dentro do seu repositório você vai executar:
+Agora você aprendeu a executar os principais comandos do Git, recomendo pesquisar no google melhor sobre estes comandos. Mas ainda falta um comando importante, o 'Pull'. O 'Pull' serve para atualizar o seu repositório local, imagine que outro usuário alterou o repositório do Git e você precisa antes de retomar o seu trabalho atualizar o seu repositório com estas modificações, então dentro do seu repositório você vai executar:
 
 <pre>
 git pull
