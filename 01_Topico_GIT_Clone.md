@@ -72,6 +72,8 @@ git clone https://github.com/Piressss/Python_Learning.git
 Algumas coisas vão aparecer na sua tela e ao terminal você deve executar o comando 'ls' novamente, deve aparecer o nome do diretório
 'Python_Learning'. Entre no diretório utilizando o comando 'cd', como vimos anteriormente, agora você está dentro do repositório local.
 
+## Segundo Passo - Criar um novo arquivo
+
 Agora crie um arquivo através de qualquer editor, salve com o nome "Teste.txt" e escreva no arquivo a frase "Teste no GIT". Lembre-se você deve criar
 o arquivo dentro do diretório que fizemos o clone, se for criar pelo terminal precisará entrar no diretório:
 
@@ -85,7 +87,7 @@ Editar e salvar. Verifique com o 'ls' se o arquivo foi criado depois que fechá-
 
 Agora vamos aprender a fazer o PUSH, isto é upload do repositório com o novo arquivo, são 3 passos:
 
-### ADD
+## Terceiro Passo - Atualizar o repositório do GitHub com suas modificações
 
 Adicione o arquivo para o seu repositório local:
 
@@ -106,6 +108,8 @@ git push
 </pre>
 
 Pronto se tudo deu certo você já consegue visualizar o arquivo pelo browser no repositório do GitHub.
+
+## Quarto Passo - Atualizar o repositório local
 
 Agora você aprendeu a executar os principais comandos do Git, recomendo pesquisar no google melhor sobre estes comandos. Mas ainda falta um comando
 importante, o 'Pull'. O 'Pull' serve para atualizar o seu repositório local, imagine que outro usuário alterou o repositório do Git e você precisa
