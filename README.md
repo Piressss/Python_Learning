@@ -37,8 +37,9 @@ Eu costumo utilizar o VIM, é editor mais bruto vamos dizer, um pouco mais compl
 sudo apt-get install vim
 </pre>
 
-Caso não queira utilizar pode pesquisar no googles outros IDE/Editores, uma das recomendações é esta:
+Caso não queira utilizar pode pesquisar no googles outros IDE/Editores, recomendações:
 https://www.jetbrains.com/pycharm/download/#section=linux
+http://www.pydev.org/download.html
 
 *Terminator*
 
