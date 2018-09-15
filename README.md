@@ -38,8 +38,8 @@ sudo apt-get install vim
 </pre>
 
 Caso não queira utilizar pode pesquisar no googles outros IDE/Editores, recomendações:
-https://www.jetbrains.com/pycharm/download/#section=linux
-http://www.pydev.org/download.html
+* https://www.jetbrains.com/pycharm/download/#section=linux
+* http://www.pydev.org/download.html
 
 *Terminator*
 
