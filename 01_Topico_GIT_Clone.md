@@ -5,6 +5,24 @@ Apesar de ser possível utilizar o GitHub para implementação, não traz muitas
 A ideia deste material é aprender a fazer o clone do repositório (Download), abrir os arquivos, adicionar um novo arquivo e fazer o push (upload) para
 o repositório.
 
+## Configuração Inicial do GIT
+
+Vamos iniciar fazer a configuração do seu ususário para o GIT.
+
+Abra um terminal (Ctrl+T no Linux).
+
+Configura o nome de usuário através do comando abaixo, troque o a informação NOME_DO_USUARIO pelo nome do seu usuário, uma boa prática é utilizar o mesmo usuário do Linux.
+
+<pre>
+git config --global user.name "NOME_DO_USUARIO"
+</pre>
+
+Depois vamos configurar um email padrão para o usuário.
+
+<pre>
+git config --global user.email fulano@example.com
+</pre>
+
 ## Primeiro Passo - Clone
 
 Primeiro passo é fazer o clone do repositório, para que possar ser utilizado no seu pc.
