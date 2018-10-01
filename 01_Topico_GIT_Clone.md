@@ -141,4 +141,4 @@ https://git-scm.com/docs/gittutorial
 
 ## Exemplo dos comandos executados
 
-![Alt Text](https://github.com/Piressss/Python_Learning/raw/master/images/exemplo_git.png)
+![Alt Text](https://github.com/Piressss/Python_Learning/raw/master/images/exemplo_git.jpeg)
