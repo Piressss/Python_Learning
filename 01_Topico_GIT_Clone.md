@@ -138,3 +138,7 @@ Todas as modificações serão copiadas para o seu repositório e você poderá 
 *Resumo*, leia o link abaixo, bom até para treinar o inglês:
 
 https://git-scm.com/docs/gittutorial
+
+## Exemplo dos comandos executados
+
+![Alt Text](https://github.com/Piressss/Python_Learning/raw/master/images/exemplo_git.png)
