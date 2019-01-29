@@ -153,3 +153,13 @@ variavel_3 = variavel_1 + variavel_2
 
 variavel_3 = 2 + 3
 </pre>
+
+Depois faça o commit do arquivo para salvar uma versão no repositório.
+
+#### Exercício 4:
+
+Agora vamos treinar tudo o que foi aprendido, você deve escrever um script que executa a equação de Bhaskara -> https://brasilescola.uol.com.br/matematica/formula-bhaskara.htm
+
+Lembre-se de criar todas as variáveis que representam os elementos da equação e atribuir um valor para elas, depois crie uma variável que receberá a equação, isto é, o resultado da operação, imprima o resultado na tela. Execute o script e veja se o resultado é o esperado.
+
+Depois faça o commit do arquivo para salvar uma versão no repositório.
