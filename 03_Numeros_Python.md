@@ -16,8 +16,7 @@ vim primeiro_script.py
 
 No exemplo acima criamos um arquivo chamado "primeiro_script.py", note que a extensão do arquivo deve ser ".py".
 
-É importante garantir que este arquivo tenha permissão de execução, isto é, que o sistema operacional seja capaz de executar arquivo,
-não apenas ler ou escrever.
+É importante garantir que este arquivo tenha permissão de execução, isto é, que o sistema operacional seja capaz de executar o arquivo, não apenas ler ou escrever.
 
 Para isso executamos o seguinte comando:
 
@@ -41,8 +40,7 @@ Após essa duas linhas você pode começar a codificar o seu script python.
 
 ## Como executar um script python
 
-A execução do script python é muito simples, uma vez que você já deu permissão de execução ao script basta executá-lo da seguinte
-forma:
+A execução do script python é muito simples, uma vez que você já deu permissão de execução ao script basta executá-lo da seguinte forma pelo terminal, na pasta onde está o script:
 
 <pre>
 ./primeito_script.py
@@ -50,7 +48,7 @@ forma:
 
 ## Como trabalhar com números em python.
 
-Nesse ponto é importante lembrar que Python é uma linguagem não tipada, isto significa que as variáveis podem mudar de tipo após terem sido criadas, o que por um lado é bom pois facilita a codificação, mas que por outro lado pode gerar uma série de problemas se você esquecer desse detalhe.
+Nesse ponto é importante lembrar que Python é uma linguagem não tipada, isto significa que as variáveis não precisam ser criadas referenciando o tipo delas e podem mudar de tipo após terem sido criadas, o que por um lado é bom pois facilita a codificação, mas que por outro lado pode gerar uma série de problemas se você esquecer desse detalhe.
 
 Os principais tipos de variáveis númericas em python são o **int** e o **float**, mas além disso temos outros tipos, tais como **decimal**, **fraction**, **complex**. Mas nesse primeiro momento vamos focar nos dois principais visto que uma vez entendido o conceito desses tipos as demais ficam mais claras.
 
@@ -77,13 +75,13 @@ Note que o tipo **int** não representa inteiros, enquanto o tipo **float** cons
 
 Agora vamos voltar a edição do primeiro_script.py.
 
-Para criar uma nova variável basta escrecer da seguinte forma:
+Para criar uma nova variável basta escrever da seguinte forma:
 
 <pre>
 nome_da_variavel = 1
 </pre>
 
-Como vimos, em python você não precisa dizer o tipo que a variável tem, o próprio interpretador já fiz por você, então você cria a variável e já atribui alguma informação ela e pronto. Se for criar um **float** fica assim:
+Como vimos, em python você não precisa dizer o tipo que a variável tem, o próprio interpretador já faz isso por você, então você cria a variável e já atribui alguma informação a ela e pronto. Se for criar um **float** fica assim:
 
 <pre>
 nome_da_variavel = 1.0
