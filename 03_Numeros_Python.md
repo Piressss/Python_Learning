@@ -104,12 +104,12 @@ Depois faça o commit do arquivo para salvar uma versão no repositório.
 ### Operações númericas em python
 
 As principais operações númericas em python são as seguintes:
-** Exponenciação
-% Módulo
-* Multiplicação
-/ Divisão
-+ Soma
-- Subtração
+* ** Exponenciação
+* % Módulo
+* \* Multiplicação
+* / Divisão
+* \+ Soma
+* \- Subtração
 
 Essa lista segue a ordem de precedência, isto é, qual operação é executada primeiro em caso de mais operações em conjunto, por exemplo:
 
@@ -138,3 +138,18 @@ A = B + C
 </pre>
 
 Depois faça o commit do arquivo para salvar uma versão no repositório.
+
+#### Exercício 3:
+
+Edite novamente seu script, a ideia agora é acrescentar todas as operações que você viu e imprimir o resultado uma por vez.
+É importante saber que você pode criar uma variável que já recebe uma operação sem necessidade de criar outras variáveis apenas para receber os números, como no exemplo abaixo:
+
+<pre>
+variavel_1 = 2
+variavel_2 = 3
+variavel_3 = variavel_1 + variavel_2
+
+# Ou podemos fazer assim:
+
+variavel_3 = 2 + 3
+</pre>
