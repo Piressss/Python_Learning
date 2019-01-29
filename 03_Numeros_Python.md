@@ -47,3 +47,94 @@ forma:
 <pre>
 ./primeito_script.py
 </pre>
+
+## Como trabalhar com números em python.
+
+Nesse ponto é importante lembrar que Python é uma linguagem não tipada, isto significa que as variáveis podem mudar de tipo após terem sido criadas, o que por um lado é bom pois facilita a codificação, mas que por outro lado pode gerar uma série de problemas se você esquecer desse detalhe.
+
+Os principais tipos de variáveis númericas em python são o **int** e o **float**, mas além disso temos outros tipos, tais como **decimal**, **fraction**, **complex**. Mas nesse primeiro momento vamos focar nos dois principais visto que uma vez entendido o conceito desses tipos as demais ficam mais claras.
+
+### As diferências entre int e float
+
+Variáveis do tipo **int** representam números inteiros (lembra, 0, 1, 2 ...) e variáveis do tipo **float** representam números com casas decimais (lembra, 0.0, 0.5, 1.2 ...).
+
+Abra o interpretador python, que você aprendeu a utilizar no exercício anterior e veja as diferenças através dos exemplos abaixo:
+
+<pre>
+>>> int(1)
+1
+>>> float(1)
+1.0
+>>> int(2.1)
+2
+>>> float(2.1)
+2.1
+</pre>
+
+Note que o tipo **int** não representa inteiros, enquanto o tipo **float** consegue representar tanto inteiros quanto as casas decimais.
+
+### Criando variáveis no script python
+
+Agora vamos voltar a edição do primeiro_script.py.
+
+Para criar uma nova variável basta escrecer da seguinte forma:
+
+<pre>
+nome_da_variavel = 1
+</pre>
+
+Como vimos, em python você não precisa dizer o tipo que a variável tem, o próprio interpretador já fiz por você, então você cria a variável e já atribui alguma informação ela e pronto. Se for criar um **float** fica assim:
+
+<pre>
+nome_da_variavel = 1.0
+</pre>
+
+#### Exercício 1:
+
+Crie no seu script 2 variáveis, uma recebendo um valor inteiro e outra um valor com casa decimal, adicione a seguinte linha a seu script, depois de criar as variáveis:
+
+<pre>
+print nome_da_variavel1, nome_da_variavel2
+</pre>
+
+Salve o arquivo e tente executá-lo, você deverá ver os valores das variáveis sendo mostrados no terminal.
+
+Depois faça o commit do arquivo para salvar uma versão no repositório.
+
+### Operações númericas em python
+
+As principais operações númericas em python são as seguintes:
+** Exponenciação
+% Módulo
+* Multiplicação
+/ Divisão
++ Soma
+- Subtração
+
+Essa lista segue a ordem de precedência, isto é, qual operação é executada primeiro em caso de mais operações em conjunto, por exemplo:
+
+<pre>
+resultado = 2 * 2 + 3
+7
+</pre>
+
+Primeiro é executado a multiplicaço, depois a soma.
+
+Mas adquira o hábito de utilizar os () para deixar claro qual a precedência que você quer, por exemplo:
+
+<pre>
+resultado = 2 * (2 + 3)
+10
+</pre>
+
+#### Exercício 2:
+
+Edite o seu script e adiciona uma das operações acima para as suas variáveis. Use o 'print' para mostrar o resultado e verifique se está correto executando o script.
+
+A ideia é que você crie uma terceira variável que vai receber diretamente a operação das duas variáveis criadas anteriormente, tipo assim:
+
+<pre>
+A = B + C
+</pre>
+
+Depois faça o commit do arquivo para salvar uma versão no repositório.
